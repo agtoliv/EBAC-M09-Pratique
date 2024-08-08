@@ -7,10 +7,28 @@
     <link rel="preconnect" href="http://fonts.googleapis.com">
     <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+
+    <form>
+        <head>
+            <h2>Nome da tarefa</h2>
+        </head>
+
+        <input id="nova-tarefa" placeholder="Digite o nome da sua tarefa" type="text">
+        <button id="btnAdiciona" type="submit">Adicionar</button>
+        <button id="btnCancela" type="reset">Cancelar</button>
+    </form>
+
+    <ul>
+        <li>
+            <h3 id="nome-tarefa"></h3>
+        </li>
+    </ul>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/main.js"></script>
